@@ -29,25 +29,23 @@ Custom repositories will be available in future versions.
 Shabang is set to `#!python3` so you don't need to add `python` or `python3` before `nxsc.py ...`.  
 Usage for 0.1.0 version:
 ```
-usage: nxsc [-h] [-b] [--force-32bit] [--version] command [app_name]
+usage: nxsc [-h] [--version] {install,search,update,upgrade,show,download} ...
 
-Script for easy search, download and install software for Microsoft Windows OS
+Python script for easy download, install and update software on Microsoft Windows
 
 positional arguments:
-  command        command to execute.
-                 Available commands:
-                     install (with app_name) - install application
-                     search (with app_name) - search for app
-                     update - check for updates
-                     upgrade - install updates
-                     show (with app_name) - show full info about app
-  app_name       application name for install, search or upgrade
+  {install,search,update,upgrade,show,download}
+                        commands to execute:
+    install             install application(s)
+    search              search for application(s)
+    update              update information about installed applications
+    upgrade             install updates
+    show                displays detailed information about one or more applications
+    download            only download application(s) without installing
 
 optional arguments:
-  -h, --help     show this help message and exit
-  -b, --beta     upgrade to/install beta version if is newer than stable
-  --force-32bit  forced installation of 32-bit version on 64-bit OS
-  --version      show version
+  -h, --help            show this help message and exit
+  --version             show version
 
 More information at http://github.com/NeoXant/nxsc
 ```
