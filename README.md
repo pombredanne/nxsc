@@ -25,11 +25,10 @@ Custom repositories will be available in future versions.
 - [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
 - [PyYAML](http://pyyaml.org/)
 
-**How to run:**  
-Shabang is set to `#!python3` so you don't need to add `python` or `python3` before `nxsc.py ...`.  
+**How to run:**    
 Usage for 0.1.0 version:
 ```
-usage: nxsc [-h] [--version] {install,search,update,upgrade,show,download} ...
+usage: nxsc.py [-h] [--version] {install,search,update,upgrade,show,download} ...
 
 Python script for easy download, install and update software on Microsoft Windows
 
