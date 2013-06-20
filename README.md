@@ -24,6 +24,8 @@ Custom repositories will be available in future versions.
 - [Requests](http://docs.python-requests.org/en/latest/)
 - [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/)
 - [PyYAML](http://pyyaml.org/)
+- [python-progressbar](https://code.google.com/p/python-progressbar/) (in PyPI: progressbar-latest)
+- [hurry.filesize](https://pypi.python.org/pypi/hurry.filesize)
 
 **How to run:**    
 Usage for 0.1.0 version:
