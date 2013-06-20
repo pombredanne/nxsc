@@ -14,7 +14,7 @@ NXSC uses [FileHippo.com](http://filehippo.com/) to search and install software.
 Custom repositories will be available in future versions.  
 
 **List of all functions (links lead to the corresponding page on the wiki):**
-- search
+- [search](https://github.com/NeoXant/nxsc/wiki/Search)
 - [install](https://github.com/NeoXant/nxsc/wiki/Install) (for now without unattended installation)
 - upgrade
 - display additional information about package
