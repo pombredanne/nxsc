@@ -15,7 +15,7 @@ Custom repositories will be available in future versions.
 
 **List of all functions (links lead to the corresponding page on the wiki):**
 - search
-- install (for now without unattended installation)
+- [install](https://github.com/NeoXant/nxsc/wiki/Install) (for now without unattended installation)
 - upgrade
 - display additional information about package
 
