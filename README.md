@@ -7,7 +7,7 @@ Content of license is in the file LICENSE.md or at http://www.gnu.org/licenses/g
 ***
 **First verion of NXSC is not published yet! I created this README and wiki, because I want you to saw capability of this script and how to use it in the future.**
 
-NXSC is a Python script for easy download, install and update software on Microsoft Windows operating systems  
+NXSC is a Python script for easy download, install and update software on Microsoft Windows  
 This script is similar to `apt-get` or `aptitude` in Debian/Ubuntu.
 
 NXSC uses [FileHippo.com](http://filehippo.com/) to search and install software.  
