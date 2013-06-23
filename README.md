@@ -17,7 +17,7 @@ Custom repositories will be available in future versions.
 - [search](https://github.com/NeoXant/nxsc/wiki/Search)
 - [install](https://github.com/NeoXant/nxsc/wiki/Install) (for now without unattended installation)
 - upgrade
-- display additional information about package
+- [display](https://github.com/NeoXant/nxsc/wiki/Show) additional information about package
 
 **Requirements for using pure Python script:**
 - [Python](http://python.org/) 3.3
