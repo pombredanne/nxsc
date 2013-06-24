@@ -5,7 +5,6 @@ This software is under GNU General Public License version 3.
 Content of license is in the file LICENSE.md or at http://www.gnu.org/licenses/gpl.html
 
 ***
-**First verion of NXSC is not published yet! I created this README and wiki, because I want you to saw capability of this script and how to use it in the future.**
 
 NXSC is a Python script for easy download, install and update software on Microsoft Windows  
 This script is similar to `apt-get` or `aptitude` in Debian/Ubuntu.
@@ -50,3 +49,8 @@ optional arguments:
 
 More information at http://github.com/NeoXant/nxsc
 ```
+#### Changelog ####
+
+| Version | Publish date | Changes     | Binary version (setup file)                                               |
+|:-------:|:------------:|-------------|--------------------------------------------------------------|
+| 0.1.0   | 2013-06-24   |First version| [nxsc-0.1.0-setup.exe](http://adf.ly/4156858/nxsc-010-setup) |
