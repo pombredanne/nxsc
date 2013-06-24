@@ -16,7 +16,7 @@ Custom repositories will be available in future versions.
 **List of all functions (links lead to the corresponding page on the wiki):**
 - [search](https://github.com/NeoXant/nxsc/wiki/Search)
 - [install](https://github.com/NeoXant/nxsc/wiki/Install) (for now without unattended installation)
-- upgrade
+- [upgrade](https://github.com/NeoXant/nxsc/wiki/Upgrade)
 - [display](https://github.com/NeoXant/nxsc/wiki/Show) additional information about package
 
 **Requirements for using pure Python script:**
