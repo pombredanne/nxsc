@@ -51,6 +51,7 @@ More information at http://github.com/NeoXant/nxsc
 ```
 #### Changelog ####
 
-| Version | Publish date | Changes     | Binary version (setup file)                                               |
-|:-------:|:------------:|-------------|--------------------------------------------------------------|
-| 0.1.0   | 2013-06-24   |First version| [nxsc-0.1.0-setup.exe](http://adf.ly/4156858/nxsc-010-setup) |
+| Version | Publish date | Changes | Binary version (setup file) | Pure Python script |
+|:-------:|:------------:|---------|-----------------------------|--------------------|
+| 0.1.0 | 2013-06-24 | First version | [nxsc-0.1.0-setup.exe](http://adf.ly/4156858/nxsc-010-setup) | [ver-0.1.0](https://github.com/NeoXant/nxsc/archive/ver-0.1.0.zip) |
+| 0.1.1 | 2013-06-25 | Bug: KeyError: 'new version' | [nxsc-0.1.1-setup.exe](http://adf.ly/4156858/nxsc-011-setup) | [ver-0.1.1](https://github.com/NeoXant/nxsc/archive/ver-0.1.1.zip)|
