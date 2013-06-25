@@ -152,7 +152,7 @@ class FileHippoRepo(object):
                 if self.installed_db[app]['beta']:
                     self.beta = True
             if (not upgrade and app in self.installed_db and
-                self.installed_db[app]['new version']):
+                'new verion' in self.installed_db[app]):
                 print(
                     '{} - for upgrade this app, use "upgrade" command!'.format(
                     app))
