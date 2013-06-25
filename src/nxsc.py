@@ -24,7 +24,7 @@ if __name__ == '__main__':
                 formatter_class=argparse.RawTextHelpFormatter)
 
     parser.add_argument('--version', help='show version', action='version',
-         version='''NXSC 0.1.0
+         version='''NXSC 0.1.1
 Copyright (c) 2013 Michal "NeoXant" Kolarczyk
 This software is under GNU GPL version 3 license''')
 
@@ -92,7 +92,7 @@ This software is under GNU GPL version 3 license''')
         action='store_true')
 
     args = parser.parse_args()
-    print('''NXSC 0.1.0
+    print('''NXSC 0.1.1
 Copyright (c) 2013 Michał "NeoXant" Kolarczyk
 This software is under GNU GPL version 3 license
 ''')
