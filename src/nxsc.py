@@ -58,6 +58,10 @@ This software is under GNU GPL version 3 license''')
         'update',
         help='update information about installed applications')
 
+    parser_clean = subparsers.add_parser(
+        'clean',
+        help='remove all downloaded setup files')
+
     parser_upgrade = subparsers.add_parser(
         'upgrade',
         help='install updates')
@@ -116,5 +120,7 @@ This software is under GNU GPL version 3 license
             fh.update()
         elif args.command == 'upgrade':
             fh.upgrade(args.app_name)
+        elif args.command == 'clean':
+            fh.clean()
     else:
         parser.print_help()

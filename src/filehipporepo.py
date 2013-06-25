@@ -343,3 +343,6 @@ class FileHippoRepo(object):
                     apps_to_install.append(app[0])
             self.download(apps_to_install, True)
             self.install(True)
+        
+        def clean():
+            print()
