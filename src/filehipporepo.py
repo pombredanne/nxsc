@@ -198,8 +198,13 @@ class FileHippoRepo(object):
         for key in self.downloaded_apps.keys():
             if self.downloaded_apps[key][0].split('.')[-1] in ['exe', 'msi']:
                 print('{} {}...'.format(key, self.downloaded_apps[key][1]))
-                subprocess.call(os.path.join(
-                    self.setup_files_dir, self.downloaded_apps[key][0]))
+                if self.downloaded_apps[key][0].split('.')[-1] == 'msi':
+                    subprocess.call(os.path.join(
+                        self.setup_files_dir, self.downloaded_apps[key][0]),
+                        shell=True)
+                else:
+                    subprocess.call(os.path.join(
+                        self.setup_files_dir, self.downloaded_apps[key][0]))
             elif self.downloaded_apps[key][0].split('.')[-1] == 'zip':
                 print('{} {} - ZIP archive, opening...'.format(
                     key, self.downloaded_apps[key][1]))
