@@ -55,3 +55,7 @@ More information at http://github.com/NeoXant/nxsc
 |:-------:|:------------:|---------|-----------------------------|--------------------|
 | 0.1.0 | 2013-06-24 | First version | [nxsc-0.1.0-setup.exe](http://adf.ly/4156858/nxsc-010-setup) | [ver-0.1.0](https://github.com/NeoXant/nxsc/archive/ver-0.1.0.zip) |
 | 0.1.1 | 2013-06-25 | Bug: KeyError: 'new version' | [nxsc-0.1.1-setup.exe](http://adf.ly/4156858/nxsc-011-setup) | [ver-0.1.1](https://github.com/NeoXant/nxsc/archive/ver-0.1.1.zip)|
+| 0.1.2 | 2013-06-26 | Fixes #1 | [nxsc-0.1.2-setup.exe](http://adf.ly/R8zCO) | [ver-0.1.2](http://adf.ly/R8zK9) |
+
+#### Difference between a binary version and pure Python script ####
+With binary version, you don't need to have Python interpreter (and other libraries) installed on your machine because it have all this built-in.
